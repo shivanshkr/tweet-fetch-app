@@ -1,0 +1,25 @@
+doctype html
+html
+  head
+    title Tweet Fetch App
+    style.
+        p{
+          background-color:powderblue;
+        }
+  body Enter username and date range. The account shouldn't be private.
+    br
+    br
+    <form action="/" method="post">
+        <label> Username : </label>
+        <input type="text" name="username" placeholder="Eg. msdhoni" required>
+        <label> Start Date : </label>
+        <input type="date" name="sdate" >
+        <label> End Date : </label>
+        <input type="date" name="edate" >
+        <button>Get Tweets</button>
+    </form>
+      - for(var i = 0; i < n; i++){ 
+          p #{tweets[i]} <br> #{tweetsTime[i]}
+      - }
+           
+      
